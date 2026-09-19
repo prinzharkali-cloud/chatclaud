@@ -1,4 +1,4 @@
-const CACHE = 'chatclaud-runtime-v11-github';
+const CACHE = 'chatclaud-runtime-v12-github';
 self.addEventListener('install', () => self.skipWaiting());
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {

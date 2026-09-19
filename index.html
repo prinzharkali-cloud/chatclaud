@@ -3724,11 +3724,7 @@ setTimeout(function() {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 
 <script>
-/* ===== ChatClaud API base (GitHub Pages → Render) =====
-   Поставь сюда URL своего Render БЕЗ слэша в конце.
-   Пример: https://chatclaud.onrender.com
-   Ключи остаются ТОЛЬКО на Render (Environment Variables).
-*/
+/* ChatClaud: фронт на GitHub Pages, ключи только на Render */
 window.CC_API_BASE = (localStorage.getItem('CC_API_BASE') || 'https://chatclaud.onrender.com').replace(/\/+$/, '');
 window.ccApiUrl = function (path) {
   path = String(path || '');
