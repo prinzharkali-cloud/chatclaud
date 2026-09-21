@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>ChatClaud</title>
+    <link rel="icon" href="IMG_5637.jpeg" type="image/jpeg">
+    <link rel="icon" href="IMG_5637.jpeg" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="IMG_5637.jpeg">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-title" content="ChatClaud">
+
     <meta name="description" content="ChatClaud — быстрый ИИ-помощник. Пишет код, создаёт сайты и игры, отвечает на любые вопросы. ClaudForge Pro для сложных проектов.">
     <meta name="keywords" content="ChatClaud, ИИ, AI чат, код, ClaudForge, генерация сайтов, нейросеть">
     <meta name="author" content="milanmichaimilan">
@@ -18,9 +25,6 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="ChatClaud — ИИ-чат и ClaudForge Pro">
     <meta name="twitter:description" content="Быстрый ИИ-помощник: код, сайты, игры.">
-    <link rel="icon" href="/icon-512.png" type="image/png">
-    <link rel="apple-touch-icon" href="/icon-192.png">
-    <meta name="apple-mobile-web-app-title" content="ChatClaud">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#000000">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -3355,7 +3359,7 @@ body.is-generating .send-icon::after {
   width: 84px; height: 84px;
   border-radius: 20px;
   margin: 0 auto 1.1rem;
-  background: #000 url('icon-192.png') center/cover no-repeat;
+  background: #000 url('IMG_5637.jpeg') center/cover no-repeat;
   box-shadow: 0 12px 36px rgba(0,0,0,0.55);
   border: 1px solid rgba(255,255,255,0.1);
 }
@@ -6838,7 +6842,7 @@ html.plus-active .cc-think {
                 <div class="title" id="flashTitle" style="display:none">ChatClaud</div>
                 <div class="top-bar-actions">
                     <button type="button" class="voice-btn" id="flashVoiceBtn" title="Голос" style="display:none!important" aria-hidden="true">Голос</button>
-                    <button type="button" id="flashNewChat" class="cc-newchat-logo" title="Новый чат" aria-label="New chat"><img src="icon-192.png" alt="" width="22" height="22"></button>
+                    <button type="button" id="flashNewChat" class="cc-newchat-logo" title="Новый чат" aria-label="New chat"><img src="IMG_5637.jpeg" alt="" width="22" height="22"></button>
                     <button type="button" id="flashSettingsBtn" style="display:none">Настройки</button>
                 </div>
             </div>
@@ -12603,7 +12607,7 @@ function buildImageUrl(userPrompt, opts) {
                 if (empty) return;
                 var d = document.createElement('div');
                 d.className = 'cc-empty';
-                d.innerHTML = '<img class="cc-empty-logo" src="icon-192.png" alt="ChatClaud" onerror="this.src=\'/chatclaud-avatar-transparent.png\'">'
+                d.innerHTML = '<img class="cc-empty-logo" src="IMG_5637.jpeg" alt="ChatClaud" onerror="this.src=\'/chatclaud-avatar-transparent.png\'">'
                     + '<div class="cc-empty-title">ChatClaud</div>'
                     + '<div class="cc-empty-ask">Ask me</div>';
                 box.appendChild(d);
@@ -12841,7 +12845,7 @@ function buildImageUrl(userPrompt, opts) {
     var b = document.getElementById('flashNewChat');
     if (!b) return;
     if (!b.querySelector('img[src*="icon-192"]')) {
-      b.innerHTML = '<img src="icon-192.png" alt="" width="22" height="22">';
+      b.innerHTML = '<img src="IMG_5637.jpeg" alt="" width="22" height="22">';
     }
     b.classList.add('cc-newchat-logo');
   }
